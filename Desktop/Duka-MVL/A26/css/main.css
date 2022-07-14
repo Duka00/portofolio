@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+header {
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+ul {
+  margin-right: 30px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 19px;
+  margin-right: 10px;
+  font-weight: 400;
+}
+header h1 {
+  color: #11ed32;
+  margin-right: 30px;
+}
+.btn {
+  background-color: #11ed32;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+.hero {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-hero {
+  border-radius: none;
+  text-decoration: none;
+}
+.desc h1 {
+  color: #3b3b3b;
+}
+.desc p {
+  color: grey;
+  margin-bottom: 20px;
+}
+.photo {
+  width: 450px;
+  height: 400px;
+  background-image: url("https://www.vr360eshop.fr/1511-large_default/oculus-quest-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.featrues {
+  height: 650px;
+  background-color: #aeaaaa;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+}
+.text p {
+  margin-top: -20px;
+  text-align: center;
+}
+.text h2 {
+  margin-top: -10px;
+}
+.box {
+  width: 23%;
+  height: 360px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px 20px;
+}
+.box img {
+  width: 60%;
+  height: 130px;
+}
+.box a {
+  text-decoration: none;
+  color: #3b3b3b;
+  font-size: 17px;
+  float: right;
+}
+.feat-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.testemonials {
+  height: 500px;
+  background-color: #11ed32;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comment {
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  letter-spacing: 2px;
+  width: 50%;
+  text-align: center;
+}
+.name {
+  font-size: 21px;
+  color: white;
+  opacity: 0.5;
+}
+.user {
+  width: 100px;
+  height: 130px;
+  border-radius: 50%;
+  border: #1f521f;
+  padding: 4px;
+}
+footer {
+  /* height: 300px; */
+  border: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: solid 1px;
+  padding-bottom: 15px;
+  margin-left: 20px;
+}
+.partner {
+  width: 70%;
+  text-align: center;
+}
+.button {
+  background-color: #11ed32;
+  color: white;
+  border-radius: 17px;
+  padding: 17px 25px;
+  border: none;
+  font-size: 13px;
+}
+.general {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+.info {
+  width: 30%;
+  height: 300px;
+  
+}
+.list{
+    display: flex;
+    flex-direction: column;
+
+}
+.list{
+    line-height: 25px;
+    font-size: 25px;
+    color: #3b3b3b;
+    font-weight: 700;
+
+}
+.info h3{
+    padding-left: 40px;
+    color: #3b3b3b;
+   font-size: 17px; 
+}
+
